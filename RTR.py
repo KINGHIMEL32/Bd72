@@ -672,7 +672,7 @@ def freeq(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\33[1;37m[CRACKING] [%s]  OK: %s CP: %s'%(loop,len(ok),len(cp))), 
+        sys.stdout.write(f'\r\33[1;37m[KING-HIMEL] [%s]  OK: %s CP: %s'%(loop,len(ok),len(cp))), 
         sys.stdout.flush()
     except:
         pass
